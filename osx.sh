@@ -78,7 +78,7 @@ esac
 
 maybe_run "mkdir -p $HOME/.pragprog"
 
-maybe_run "git clone git@github.com:pragdave/m13.git $M13"
+maybe_run "git clone git@git.pragprog.com:pragdave/m13.git $M13"
 
 cat << EOM2
 The following command will install a link to the m13 command
