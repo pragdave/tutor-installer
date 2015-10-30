@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# Install the m13 components in ~/.pragpog/m13, then offer to install
+# Install the m13 components in ~/.pragprog/m13, then offer to install
 # the m13 command into a directory in $PATH
 
 if [ $EUID -eq 0 ]; then
