@@ -54,8 +54,10 @@ maybe_run() {
   CMD=$1
   echo
   echo "can I run: $CMD"
-  read -p "[Yn]: " choice
+  read -p "[Yn]: " choice </dev/tty
   echo
+  echo .$choice.
+  exit
   case "$choice" in
   y|yes|Y|YES|"" )
         if ($CMD)
@@ -75,6 +77,7 @@ maybe_run() {
         maybe_run "$CMD";;
 esac
 }
+
 
 maybe_run "mkdir -p $HOME/.pragprog"
 
