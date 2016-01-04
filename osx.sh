@@ -56,8 +56,6 @@ maybe_run() {
   echo "can I run: $CMD"
   read -p "[Yn]: " choice </dev/tty
   echo
-  echo .$choice.
-  exit
   case "$choice" in
   y|yes|Y|YES|"" )
         if ($CMD)
