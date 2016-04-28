@@ -1,5 +1,5 @@
-# M13 Installers
+# Tutor Installers
 
 ## OS X
 
-    curl -fLsS https://git.pragprog.com/m13/install/raw/master/osx.sh | sh
+    curl -fLsS https://raw.githubusercontent.com/pragdave/tutor-installer/master/osx.sh | sh
